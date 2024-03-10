@@ -1,0 +1,4 @@
+M1_DIR=m1
+M1_PARTS=$(M1_DIR)/content.tex
+
+include $(M1_DIR)/l1/Makefile.def
