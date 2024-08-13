@@ -14,6 +14,14 @@ CONFIG_SLIDES= \
 LOGOS=logos/*
 
 include m1/Makefile.def
+include m2/Makefile.def
+include m3/Makefile.def
+include m4/Makefile.def
+include m5/Makefile.def
+include m6/Makefile.def
+include m7/Makefile.def
+include m8/Makefile.def
+include m9/Makefile.def
 include guide/Makefile.def
 
 .PHONY: all clean updatevers slides ejer guide
@@ -35,4 +43,12 @@ slides: $(ALL_SLIDES_FINAL_PDF)
 guide:	$(GUIDE_FINAL_PDF)
 
 include $(M1_DIR)/Makefile.mk
+include $(M2_DIR)/Makefile.mk
+include $(M3_DIR)/Makefile.mk
+include $(M4_DIR)/Makefile.mk
+include $(M5_DIR)/Makefile.mk
+include $(M6_DIR)/Makefile.mk
+include $(M7_DIR)/Makefile.mk
+include $(M8_DIR)/Makefile.mk
+include $(M9_DIR)/Makefile.mk
 include $(GUIDE_DIR)/Makefile.mk
